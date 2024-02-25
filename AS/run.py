@@ -5,7 +5,7 @@ import collections
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverSocket.bind(("", 53533))
 hashTable = collections.defaultdict(str)
-hashTable[("A","fibonacci.com")] = "localhost"
+hashTable[("A","abcde.com")] = "localhost" # Test data
 
 while True:
 
